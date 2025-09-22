@@ -60,20 +60,20 @@ The Smart Volunteer Collaboration Network addresses these problems using Salesfo
 ---
 
 ## 🚀 Phase 2: Org Setup & Configuration
-✅ Salesforce Editions
-✅ Company Profile Setup
-✅ Business Hours & Holidays
-✅ Fiscal Year Settings
-✅ User Setup & Licenses
-✅ Profiles
-✅ Roles
-✅ Permission Sets
-✅ OWD (Org-Wide Defaults)
-✅ Sharing Rules
-✅ Login Access Policies
-✅ Dev Org Setup
-✅ Sandbox Usage
-✅ Deployment Basics
+-✅ Salesforce Editions
+-✅ Company Profile Setup
+-✅ Business Hours & Holidays
+-✅ Fiscal Year Settings
+-✅ User Setup & Licenses
+-✅ Profiles
+-✅ Roles
+-✅ Permission Sets
+-✅ OWD (Org-Wide Defaults)
+-✅ Sharing Rules
+-✅ Login Access Policies
+-✅ Dev Org Setup
+-✅ Sandbox Usage
+-✅ Deployment Basics
 
 ---
 
