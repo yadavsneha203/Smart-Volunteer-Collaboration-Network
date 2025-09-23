@@ -78,3 +78,12 @@ The Smart Volunteer Collaboration Network addresses these problems using Salesfo
 
 ---
 
+## 🏗️ Phase 3: Data Modelling & Relationships
+- ✅ Standard & Custom Objects
+- ✅ Fields
+- ✅ Record Types
+- ✅ Page Layouts
+- ✅ Compact Layouts
+- ✅ Schema Builder
+- ✅ Junction Objects
+- ✅ External Objects (Optional)
