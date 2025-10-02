@@ -1,89 +1,129 @@
-<!-- <<<<<<< HEAD
-# Salesforce DX Project: Next Steps
+# 🌟 Smart Volunteer Collaboration Network – Implementation Phases
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
-
-## How Do You Plan to Deploy Your Changes?
-
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
-
-## Configure Your Salesforce DX Project
-
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
-
-## Read All About It
-
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
-======= -->
-# 🌟 Smart Volunteer Collaboration Network
-
-## 📌 Project Overview
-**Industry:** Non-Profit / Volunteer Management  
-**Project Type:** Salesforce Volunteer Collaboration Network CRM  
-**Target Users:** NGO Staff, Volunteer Coordinators, Volunteers, Donors  
+## 📌 Phase 1: Problem Understanding & Industry Analysis
+- Problem Understanding & Industry Research  
+- Requirement Gathering  
+- Stakeholder Analysis  
+- Business Process Mapping  
+- Industry-Specific Use Case Analysis  
+- AppExchange Exploration  
 
 ---
 
-## ❓ Problem Statement
-NGOs face major challenges in managing and engaging volunteers due to:
-
-- 📂 **Scattered Records** – Volunteer skills, availability, and history tracked manually  
-- ☎️ **Manual Coordination** – Calls, Excel sheets, and WhatsApp groups slow down operations  
-- 😴 **Low Engagement** – Lack of reminders, thank-you notes, and recognition leads to dropouts  
-- 📉 **No Clear Insights** – Hard to measure hours worked, participation, or retention  
-- 🔄 **Multiple Tools** – Switching between calendars, emails, and messaging apps is inefficient  
-
----
-
-## 💡 Solution
-The Smart Volunteer Collaboration Network addresses these problems using Salesforce capabilities:
-
-- 👥 **Volunteer Profiles** – Store skills, availability, and participation history  
-- 📅 **Event Management** – Create, assign, and register volunteers for events  
-- 🌸 **Participation Tracking** – Record hours and collect feedback seamlessly  
-- 📢 **Automated Communication** – Send welcome emails, reminders, and thank-you notes  
-- 📊 **Dashboards & Reports** – Monitor active vs inactive volunteers, participation, and total hours  
+## 📌 Phase 2: Org Setup & Configuration
+- Salesforce Editions  
+- Company Profile Setup  
+- Business Hours & Holidays  
+- Fiscal Year Settings  
+- User Setup & Licenses  
+- Profiles  
+- Roles  
+- Permission Sets  
+- Org-Wide Defaults (OWD)  
+- Sharing Rules  
+- Login Access Policies  
+- Developer Org Setup  
+- Sandbox Usage  
+- Deployment Basics  
 
 ---
 
-## 🚀 Phase 1 Deliverables
-- ✅ Problem Understanding & Industry Analysis  
-- ✅ Requirement Gathering  
-- ✅ Stakeholder Analysis  
-- ✅ Business Process Mapping  
-- ✅ Industry-Specific Use Case Analysis  
-- ✅ AppExchange Exploration  
+## 📌 Phase 3: Data Modeling & Relationships
+- Standard & Custom Objects  
+- Fields  
+- Record Types  
+- Page Layouts  
+- Compact Layouts  
+- Schema Builder  
+- Lookup vs Master-Detail vs Hierarchical Relationships  
+- Junction Objects  
+- External Objects  
 
 ---
 
-## 🚀 Phase 2: Org Setup & Configuration
-- ✅ Salesforce Editions
-- ✅ Company Profile Setup
-- ✅ Business Hours & Holidays
-- ✅ Fiscal Year Settings
-- ✅ User Setup & Licenses
-- ✅ Profiles
-- ✅ Roles
-- ✅ Permission Sets
-- ✅ OWD (Org-Wide Defaults)
-- ✅ Sharing Rules
-- ✅ Login Access Policies
-- ✅ Dev Org Setup
-- ✅ Sandbox Usage
-- ✅ Deployment Basics
-
+## 📌 Phase 4: Process Automation (Admin)
+- Validation Rules  
+- Workflow Rules  
+- Process Builder  
+- Approval Process  
+- Flow Builder (Screen, Record-Triggered, Scheduled, Auto-launched)  
+- Email Alerts  
+- Field Updates  
+- Tasks  
+- Custom Notifications  
 
 ---
 
-## 🏗️ Phase 3: Data Modelling & Relationships
-- ✅ Standard & Custom Objects
-- ✅ Fields
-- ✅ Record Types
-- ✅ Page Layouts
-- ✅ Compact Layouts
-- ✅ Schema Builder
-- ✅ Junction Objects
-- ✅ External Objects (Optional)
+## 📌 Phase 5: Apex Programming (Developer)
+- Classes & Objects  
+- Apex Triggers (before/after insert/update/delete)  
+- Trigger Design Pattern  
+- SOQL & SOSL  
+- Collections: List, Set, Map  
+- Control Statements  
+- Batch Apex  
+- Queueable Apex  
+- Scheduled Apex  
+- Future Methods  
+- Exception Handling  
+- Test Classes  
+- Asynchronous Processing  
+
+---
+
+## 📌 Phase 6: User Interface Development
+- Lightning App Builder  
+- Record Pages  
+- Tabs  
+- Home Page Layouts  
+- Utility Bar  
+- Lightning Web Components (LWC)  
+- Apex with LWC  
+- Events in LWC  
+- Wire Adapters  
+- Imperative Apex Calls  
+- Navigation Service  
+
+---
+
+## 📌 Phase 7: Integration & External Access
+- Named Credentials  
+- External Services  
+- Web Services (REST/SOAP)  
+- Callouts  
+- Platform Events  
+- Change Data Capture  
+- Salesforce Connect  
+- API Limits  
+- OAuth & Authentication  
+- Remote Site Settings  
+
+---
+
+## 📌 Phase 8: Data Management & Deployment
+- Data Import Wizard  
+- Data Loader  
+- Duplicate Rules  
+- Data Export & Backup  
+- Change Sets  
+- Unmanaged vs Managed Packages  
+- ANT Migration Tool  
+- VS Code & SFDX  
+
+---
+
+## 📌 Phase 9: Reporting, Dashboards & Security Review
+- Reports (Tabular, Summary, Matrix, Joined)  
+- Report Types  
+- Dashboards  
+- Dynamic Dashboards  
+- Sharing Settings  
+- Field-Level Security  
+- Session Settings  
+- Login IP Ranges  
+- Audit Trail  
+
+---
+
+## 📌 Phase 10: Final Presentation & Demo Day Completed
+ 
